@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './style.css';
+import '../components/style.css';
 
 const rapidApiKey = import.meta.env.VITE_SECRET; // Use REACT_APP_ prefix for environment variables in Create React App
 const Weather = () => {
